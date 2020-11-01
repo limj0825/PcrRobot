@@ -15,42 +15,49 @@ local check = function(msg)
   return false
 end
 
+local config = require("config")
+
 return {
-run = function (data,sendMessage)
-    for i = 1, #lsp do
-        if data.msg:find(lsp[i]) ~= nil then
-            if data.qq ~= Utils.setting.AdminQQ then
-                cqSetGroupBanSpeak(data.group, data.qq, 600)
-                sendMessage(Utils.CQCode_At(data.qq).."一开口就是lsp了，爪巴")
-            else
-                sendMessage(Utils.CQCode_At(data.qq).."主人你老实一点, 我有防狼喷雾哟")
-            end
-            return true
-        end
+run = function (event)
+  local msg = event.message
+  local sender = event.sender
+  local group = event.group
+  if not check(msg) then
+    return
+  end
+  for i = 1, #lsp do
+    if msg:find(lsp[i]) ~= nil then
+      if sender.id ~= config.AdminQQ then
+        sender:mute(10)
+        group:sendMessage(At(sender).." 一开口就是lsp了，爪巴")
+      else
+        group:sendMessage(At(sender).." 主人你老实一点, 我有防狼喷雾哟")
+      end
+      return
     end
-    for i = 1, #ban do
-        if data.msg:find(ban[i]) ~= nil then
-            if data.qq ~= Utils.setting.AdminQQ then
-                cqSetGroupBanSpeak(data.group, data.qq, 600)
-                sendMessage(Utils.CQCode_At(data.qq).."请不要嘴臭")
-            else
-                sendMessage(Utils.CQCode_At(data.qq).."主人别骂我QAQ")
-            end
-            return true
-        end
+  end
+  for i = 1, #ban do
+    if msg:find(ban[i]) ~= nil then
+      if sender.id ~= config.AdminQQ then
+        sender:mute(10)
+        group:sendMessage(At(sender).." 请不要嘴臭")
+      else
+        group:sendMessage(At(sender).."主人别骂我QAQ")
+      end
+      return
     end
-    if data.msg:find("喷水") ~= nil then
-        sys.taskInit(function ()
-            sendMessage(asyncImage("https://patchwiki.biligame.com/images/pcr/6/64/6wqojx2cvmntjflaij172rbjduqs898.gif"))
-        end)
-        return true
+  end
+  if msg:find("喷水") ~= nil then
+    ImageUrl("../static/gif/xcwub.gif", group)
+    return
+  end
+  for i = 1, #message do
+    if msg:find(message[i]) ~= nil then
+      group:sendMessage(At(sender).." "..send[i])
+    return
     end
-    for i = 1, #message do
-        if data.msg:find(message[i]) ~= nil then
-            sendMessage(Utils.CQCode_At(data.qq)..send[i])
-        return true
-        end
-    end
-    return false
-end
+  end
+  return false
+end,
+event = {"GroupMessageEvent"}
 }

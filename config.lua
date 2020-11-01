@@ -1,5 +1,5 @@
 local config = {}
-config["username"] = 123456789
-config["password"] = "987654321"
-config["adminqq"] = 11111111
+config["Username"] = 123456789
+config["Password"] = "987654321"
+config["AdminQQ"] = 11111111
 return config
