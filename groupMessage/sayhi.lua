@@ -48,7 +48,7 @@ run = function (event)
     end
   end
   if msg:find("喷水") ~= nil then
-    ImageUrl("../static/gif/xcwub.gif", group)
+    ImageFile("../static/gif/xcwub.gif", group)
     return true
   end
   for i = 1, #message do
