@@ -23,7 +23,7 @@ run = function (event)
   local sender = event.sender
   local group = event.group
   if not check(msg) then
-    return
+    return false
   end
   for i = 1, #lsp do
     if msg:find(lsp[i]) ~= nil then
@@ -33,7 +33,7 @@ run = function (event)
       else
         group:sendMessage(At(sender).." 主人你老实一点, 我有防狼喷雾哟")
       end
-      return
+      return true
     end
   end
   for i = 1, #ban do
@@ -44,17 +44,17 @@ run = function (event)
       else
         group:sendMessage(At(sender).."主人别骂我QAQ")
       end
-      return
+      return true
     end
   end
   if msg:find("喷水") ~= nil then
     ImageUrl("../static/gif/xcwub.gif", group)
-    return
+    return true
   end
   for i = 1, #message do
     if msg:find(message[i]) ~= nil then
       group:sendMessage(At(sender).." "..send[i])
-    return
+      return true
     end
   end
   return false
