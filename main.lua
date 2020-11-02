@@ -3,11 +3,11 @@ local exec = require("common/osexec").exec
 local function loadDir(bot, dir)
   local files = exec("ls "..dir)
   for k, v in ipairs(files) do
-    os.execute("echo '加载"..v.."'' > log")
+    os.execute("echo 加载"..v:gsub("%.lua", ""))
     local app = require(dir.."/"..v:gsub("%.lua", ""))
     for i = 1, #app.event do
+      os.execute("echo 绑定事件"..app.event[i])
       bot:subscribe(app.event[i], app.run)
-      os.execute("echo '绑定事件"..app.event[i]..". > log")
     end
   end
 end

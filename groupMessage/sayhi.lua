@@ -14,11 +14,10 @@ local check = function(msg)
   end
   return false
 end
-
 local config = require("config")
 
-return {
-run = function (event)
+local sayhi = function(event)
+  print("调用sayhi")
   local msg = event.message
   local sender = event.sender
   local group = event.group
@@ -48,7 +47,9 @@ run = function (event)
     end
   end
   if msg:find("喷水") ~= nil then
-    ImageFile("static/gif/xcwub.gif", group)
+    local exec = require("common/osexec").exec
+    local path = exec("pwd")[1]
+    group:sendImage("file://"..path.."/static/gif/xcwub.gif")
     return true
   end
   for i = 1, #message do
@@ -58,6 +59,9 @@ run = function (event)
     end
   end
   return false
-end,
+end
+
+return {
+run = sayhi,
 event = {"GroupMessageEvent"}
 }
