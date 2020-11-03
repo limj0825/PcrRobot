@@ -16,7 +16,6 @@ local function onLoad(bot)
   loadDir(bot, "groupMessage")
 end
 
-os.execute("> log")
 local config = require("config")
 local bot = Bot(config.Username, config.Password, "device.json")
 bot:login()

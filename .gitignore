@@ -1,3 +1,6 @@
 device.json
 *jar
 *.DS_Store
+models/opqqq-plugin/resources/pcr-fortune/user
+models/opqqq-plugin/resources/pcr-fortune/out
+.vscode

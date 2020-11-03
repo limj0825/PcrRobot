@@ -4,10 +4,18 @@
 
 作者：Leeeeeeee
 
-supported by [lua-miria](https://github.com/only52607/lua-mirai)
+---
+
+## supported by 
+
+[lua-miria](https://github.com/only52607/lua-mirai)
+
+[opqqq-plugin](https://github.com/fz6m/opqqq-plugin/tree/pcr)
+
+---
 
 ## 部署
----
+
 1. 安装好java
   
 ```
@@ -23,5 +31,7 @@ supported by [lua-miria](https://github.com/only52607/lua-mirai)
 ```
   java -jar lua-mirai.jar exec main.lua
 ```
+
+注：需要自行安装一些python依赖包
 
 
