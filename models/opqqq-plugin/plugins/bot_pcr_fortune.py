@@ -21,7 +21,10 @@ commandList = [
     '今日人品', '今日运势', '抽签', '人品', '运势',
     'kkr签', '妈签',
     'xcw签', '炼签',
-    'kyaru签', '臭鼬签'
+    'kyaru签', '臭鼬签',
+    '栞签',
+    '姐签',
+    '玲签'
 ]
 # 是否开启泳装签
 swimsuitModel = True
@@ -243,6 +246,12 @@ class PcrFortuneModel(Enum):
 
     M = '41'
 
+    J = '14'
+
+    K = '48'
+
+    L = '49'
+
     DEFAULT = 'default'
 
 
@@ -282,6 +291,15 @@ def handlingMessages(msg, userQQ):
     # xcw
     if msg.find('xcw') != -1 or msg.find('炼') != -1:
         model = PcrFortuneModel.XCW
+    # 栞
+    if msg.find('栞') != -1:
+        model = PcrFortuneModel.K
+    # 姐
+    if msg.find('姐') != -1:
+        model = PcrFortuneModel.J
+    # 暴击
+    if msg.find('玲') != -1:
+        model = PcrFortuneModel.L
     # Plot
     outPath = drawing(model, userQQ)
     # Send a message
@@ -355,6 +373,15 @@ def drawing(model, userQQ):
     # xcw
     if model == PcrFortuneModel.XCW:
         imgPath = f'{RESOURCES_BASE_PATH}/img/frame_{PcrFortuneModel.XCW.value}.jpg'
+    # 姐
+    if model == PcrFortuneModel.J:
+        imgPath = f'{RESOURCES_BASE_PATH}/img/frame_{PcrFortuneModel.J.value}.jpg'
+    # 栞
+    if model == PcrFortuneModel.K:
+        imgPath = f'{RESOURCES_BASE_PATH}/img/frame_{PcrFortuneModel.K.value}.jpg'
+    # 暴击
+    if model == PcrFortuneModel.L:
+        imgPath = f'{RESOURCES_BASE_PATH}/img/frame_{PcrFortuneModel.L.value}.jpg'
     img = Image.open(imgPath)
     # Draw title
     draw = ImageDraw.Draw(img)

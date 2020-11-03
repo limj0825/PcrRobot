@@ -2,7 +2,10 @@ local commandList = {
     '今日人品', '今日运势', '抽签', '人品', '运势',
     'kkr签', '妈签',
     'xcw签', '炼签',
-    'kyaru签', '臭鼬签'
+    'kyaru签', '臭鼬签',
+    '姐签',
+    '栞签',
+    '玲签'
 }
 local check = function (msg)
   for i = 1, #commandList do
@@ -27,7 +30,7 @@ local fortune = function (event)
   if path == "0" then
     group:sendMessage(At(sender).." 你今天已经抽过签啦！")
   else
-    group:sendImage("file://"..now_path.."/"..path)
+    group:sendMessage(At(sender)..ImageUrl("file://"..now_path.."/"..path, group))
   end
 end
 
