@@ -16,7 +16,7 @@ local github = function ()
           writeTimeout = 5000
       }
     )
-    
+
     if isSuccessful and code == 200 then
       local data = json.decode(body)
       local githubId = json.read("githubPushId.json")
@@ -31,7 +31,7 @@ local github = function ()
         for j = 1, #(data[i].payload.commits) do
           local commit = data[i].payload.commits[j]
           print(data[i].payload.sha)
-          admin:sendMessage("https://github.com/"..user..repo.."/commits/"..commit.sha.."\n"
+          admin:sendMessage("https://github.com/"..user.."/"..repo.."/commits/"..commit.sha.."\n"
                             ..commit.author.name.." push "..data[i].payload.ref.." "..commit.message)
           os.execute("sleep 5")
         end
