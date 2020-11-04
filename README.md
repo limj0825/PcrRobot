@@ -12,6 +12,8 @@
 
 [opqqq-plugin](https://github.com/fz6m/opqqq-plugin/tree/pcr)
 
+[json](https://github.com/rxi/json.lua)
+
 ---
 
 ## 部署

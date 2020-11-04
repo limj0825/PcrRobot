@@ -12,11 +12,22 @@ local function loadDir(bot, dir)
   end
 end
 
+local function pollingTask(bot, dir)
+  local files = exec("ls "..dir)
+  for k, v in ipairs(files) do
+    os.execute("echo 加载"..v:gsub("%.lua", ""))
+    local app = require(dir.."/"..v:gsub("%.lua", ""))
+    -- 测试功能，仅支持每次发送一条信息，降低风险
+    bot:launch(app.run)
+  end
+end
+
 local function onLoad(bot)
   loadDir(bot, "groupMessage")
+  pollingTask(bot, "pollingTask")
 end
 
 local config = require("config")
-local bot = Bot(config.Username, config.Password, "device.json")
+bot = Bot(config.Username, config.Password, "device.json")
 bot:login()
 onLoad(bot)
