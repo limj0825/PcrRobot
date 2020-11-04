@@ -1,14 +1,23 @@
 -- github推送
 
+local config = require("config")
+local receiver = {
+   {
+    user = "limj0825",
+    repo = "PcrRobot",
+    type = "friend",
+    id = config["Id"][0],
+    token = config["Token"][0]
+  }
+}
 local user = "limj0825"
 local repo = "PcrRobot"
 local json = require("common.json")
 
-local github = function ()
-  local admin = bot:getFriend(require("config").AdminQQ)
+local github = function (user, repo, token, sender)
   while true do
     local body,isSuccessful,code,message = Http.get(
-      "https://api.github.com/repos/"..user.."/"..repo.."/events",
+      "https://api.github.com/repos/"..user.."/"..repo.."/events?access_token="..token,
       {
           connectTimeout = 5000,
           readTimeout = 5000,
@@ -31,7 +40,7 @@ local github = function ()
         for j = 1, #(data[i].payload.commits) do
           local commit = data[i].payload.commits[j]
           print(data[i].payload.sha)
-          admin:sendMessage("https://github.com/"..user.."/"..repo.."/commits/"..commit.sha.."\n"
+          sender:sendMessage("https://github.com/"..user.."/"..repo.."/commits/"..commit.sha.."\n"
                             ..commit.author.name.." push "..data[i].payload.ref.." "..commit.message)
           os.execute("sleep 5")
         end
@@ -39,12 +48,32 @@ local github = function ()
       end
       json.write("githubPushId.json", githubId)
     else
-      admin:sendMessage("获取仓库信息失败")
+      print("获取仓库信息失败 "..message.." "..code)
     end
     os.execute("sleep 30")
   end
 end
 
+local genLaunch = function ()
+  for k, v in ipairs(receiver) do
+    if v.type == "friend" then
+      if not bot:containsFriend(v.id) then
+        print(v.id.." 好友不存在")
+        return
+      end
+      local sender = bot:getFriend(v.id)
+      bot:launch(github(v.user, v.repo, v.token, sender))
+    elseif v.type == "group" then
+      if not bot:containsGroup(v.id) then
+        print(v.id.. " 群不存在")
+        return
+      end
+      local sender = bot:getGroup(v.id)
+      bot:launch(github(v.user, v.repo, v.token, sender))
+    end
+  end
+end
+
 return {
-  run = github
+  run = genLaunch
 }

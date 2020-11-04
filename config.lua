@@ -1,5 +1,12 @@
 local config = {}
-config["Username"] = 1678204253
-config["Password"] = "2012lmjkl"
-config["AdminQQ"] = 931108604
+-- for bot
+config["Username"] = 111111111
+config["Password"] = "22222222"
+config["AdminQQ"] = 333333333
+
+-- for githubEvent
+config["Token"] = {}
+config["Token"][0] = "sssssss"
+config["Id"] = {}
+config["Id"][0] = 4444444444
 return config

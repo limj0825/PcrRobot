@@ -17,8 +17,8 @@ local function pollingTask(bot, dir)
   for k, v in ipairs(files) do
     os.execute("echo 加载"..v:gsub("%.lua", ""))
     local app = require(dir.."/"..v:gsub("%.lua", ""))
-    -- 测试功能，仅支持每次发送一条信息，降低风险
-    bot:launch(app.run)
+    -- 由文件自行开启线程
+    app.run()
   end
 end
 
