@@ -33,7 +33,8 @@ end
 local function onLoad(bot)
   init()
   loadDir(bot, "groupMessage")
-  pollingTask(bot, "pollingTask")
+  -- 如果因为网络问题不能访问github，请注释掉下面的任务
+  -- pollingTask(bot, "pollingTask")
 end
 
 local config = require("config")
