@@ -39,7 +39,6 @@ local github = function (user, repo, token, sender)
         githubId[data[i].id] = 1
         for j = 1, #(data[i].payload.commits) do
           local commit = data[i].payload.commits[j]
-          print(data[i].payload.sha)
           sender:sendMessage("https://github.com/"..user.."/"..repo.."/commits/"..commit.sha.."\n"
                             ..commit.author.name.." push "..data[i].payload.ref.." "..commit.message)
           os.execute("sleep 5")

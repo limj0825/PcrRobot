@@ -393,14 +393,14 @@ function json.read(path)
   end
   local data = file:read("*a")
   io.close(file)
+  if data:len() == 0 then
+    return {}
+  end
   return json.decode(data)
 end
 
 function json.write(path, content)
   local file = io.open(dir..path, "w")
-  if content == nil then
-    return
-  end
   file:write(json.encode(content))
   io.close(file)
   return
