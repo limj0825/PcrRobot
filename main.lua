@@ -22,7 +22,18 @@ local function pollingTask(bot, dir)
   end
 end
 
+local function init()
+  -- 创建database
+  local file = io.open("database", "rb")
+  if file ~=nil then
+    io.close(file)
+  else
+    os.execute("mkdir database")
+  end
+end
+
 local function onLoad(bot)
+  init()
   loadDir(bot, "groupMessage")
   pollingTask(bot, "pollingTask")
 end
