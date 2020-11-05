@@ -5,10 +5,8 @@ local function loadDir(bot, dir)
   for k, v in ipairs(files) do
     os.execute("echo 加载"..v:gsub("%.lua", ""))
     local app = require(dir.."/"..v:gsub("%.lua", ""))
-    for i = 1, #app.event do
-      os.execute("echo 绑定事件"..app.event[i])
-      bot:subscribe(app.event[i], app.run)
-    end
+    os.execute("echo 绑定事件 "..dir)
+    bot:subscribe(dir, app.run)
   end
 end
 
@@ -32,7 +30,7 @@ end
 
 local function onLoad(bot)
   init()
-  loadDir(bot, "groupMessage")
+  loadDir(bot, "GroupMessageEvent")
   -- 如果因为网络问题不能访问github，请注释掉下面的任务
   -- pollingTask(bot, "pollingTask")
 end

@@ -325,10 +325,10 @@ def testUse(userQQ):
     return Status.FAILURE
 
 
-def copywriting():
+def copywriting(idx):
     p = f'{RESOURCES_BASE_PATH}/fortune/copywriting.json'
     content = Tools.readJsonFile(p)
-    return random.choice(content['copywriting'])
+    return random.choice(content[(idx - 1) // 2]['type'])
 
 
 def getTitle(structure):
@@ -385,7 +385,7 @@ def drawing(model, userQQ):
     img = Image.open(imgPath)
     # Draw title
     draw = ImageDraw.Draw(img)
-    text = copywriting()
+    text = copywriting(eval(re.findall('\d+', imgPath)[0]))
     title = getTitle(text)
     text = text['content']
     font_size = 45

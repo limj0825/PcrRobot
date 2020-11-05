@@ -62,6 +62,5 @@ local sayhi = function(event)
 end
 
 return {
-run = sayhi,
-event = {"GroupMessageEvent"}
+  run = sayhi
 }

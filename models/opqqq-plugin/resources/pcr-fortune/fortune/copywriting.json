@@ -1,720 +1,1042 @@
-{
-    "copywriting": [
-        {
-            "good-luck": 10,
-            "content": "曾经的努力和经验会成为他人眼中魅力的样子"
-        },
-        {
-            "good-luck": 24,
-            "content": "财运顺畅，临时收入也可期待"
-        },
-        {
-            "good-luck": 9,
-            "content": "越出远门越能提高幸运值的日子"
-        },
-        {
-            "good-luck": 9,
-            "content": "善解人意的一天，道出鼓励的话语吧"
-        },
-        {
-            "good-luck": 9,
-            "content": "寄全身于好奇心，世界将更加宽阔"
-        },
-        {
-            "good-luck": 8,
-            "content": "今天听到的甜蜜言语不信为○"
-        },
-        {
-            "good-luck": 8,
-            "content": "拥有独处的时间会使内心满足"
-        },
-        {
-            "good-luck": 8,
-            "content": "能够通过新的体验深造自己的一天"
-        },
-        {
-            "good-luck": 7,
-            "content": "与人接触可丰富内心，亲切待人是幸运之钥"
-        },
-        {
-            "good-luck": 7,
-            "content": "越是凭直觉大胆行动越能加速进展的日子"
-        },
-        {
-            "good-luck": 7,
-            "content": "可能会从亲近的亲戚那里得知条件不错的事！？"
-        },
-        {
-            "good-luck": 6,
-            "content": "匀出自由的时间，便能充实地度过"
-        },
-        {
-            "good-luck": 20,
-            "content": "万事顺利的一天 麻利工作即是吉"
-        },
-        {
-            "good-luck": 21,
-            "content": "变得更加坚强，女性朋友是幸运的关鍵"
-        },
-        {
-            "good-luck": 9,
-            "content": "看东西的眼光很准的一天 SALE也◎"
-        },
-        {
-            "good-luck": 9,
-            "content": "原本的魅力闪耀的一天 珍惜喜欢的事物"
-        },
-        {
-            "good-luck": 9,
-            "content": "去获取时效性高的情报吧！"
-        },
-        {
-            "good-luck": 8,
-            "content": "对手上的锅也能感觉到有意义"
-        },
-        {
-            "good-luck": 8,
-            "content": "求知欲比平时更高！"
-        },
-        {
-            "good-luck": -7,
-            "content": "做惯了的工作会发生低级错误！？"
-        },
-        {
-            "good-luck": 7,
-            "content": "和亲近之人心灵相通 传达感激之情吧"
-        },
-        {
-            "good-luck": 7,
-            "content": "同情心加深的一天 坦率道出温柔话语吧"
-        },
-        {
-            "good-luck": 7,
-            "content": "可以期待心跳的一天 慢慢进展便可"
-        },
-        {
-            "good-luck": -8,
-            "content": "自我主张要适可而止，步调保持一致"
-        },
-        {
-            "good-luck": 10,
-            "content": "有意义的工作，将会是成长的关键"
-        },
-        {
-            "good-luck": 21,
-            "content": "被异性喜爱的一天 相信自己的魅力"
-        },
-        {
-            "good-luck": 23,
-            "content": "即使想法被驳回也不要气馁！"
-        },
-        {
-            "good-luck": 21,
-            "content": "会有重要的邂逅，或许能发展为长期交往"
-        },
-        {
-            "good-luck": 9,
-            "content": "为了提高自己技能的自我投资"
-        },
-        {
-            "good-luck": 8,
-            "content": "或许能从亲人那里听到好消息"
-        },
-        {
-            "good-luck": 24,
-            "content": "钱包里留最低限度的钱就好"
-        },
-        {
-            "good-luck": 25,
-            "content": "好像会对学习有兴趣，马上学习吧"
-        },
-        {
-            "good-luck": 7,
-            "content": "喜爱的饮料可以帮自己高度集中注意力"
-        },
-        {
-            "good-luck": 7,
-            "content": "实用物品只用同种品牌会带来好运"
-        },
-        {
-            "good-luck": 7,
-            "content": "感觉能做到的话，请务必坚持下来！"
-        },
-        {
-            "good-luck": -7,
-            "content": "不去着急的话，就能一帆风顺的一天"
-        },
-        {
-            "good-luck": 10,
-            "content": "被幽默感眷顾的一天，尽情的发言吧！"
-        },
-        {
-            "good-luck": 26,
-            "content": "身为领导者，连身边人的幸运都能提高的一天"
-        },
-        {
-            "good-luck": 9,
-            "content": "早上日程表的确认能够带来好运"
-        },
-        {
-            "good-luck": 9,
-            "content": "被人期待的一天，整理总结的任务应该也能胜任"
-        },
-        {
-            "good-luck": 8,
-            "content": "下定决心向人撒娇就能进展顺利的一天"
-        },
-        {
-            "good-luck": 8,
-            "content": "拥有判断力，感觉可以买到满意的东西"
-        },
-        {
-            "good-luck": 8,
-            "content": "热衷于眼前的事物可以使心情放松"
-        },
-        {
-            "good-luck": 7,
-            "content": "不去着急的话就能一帆风顺的一天"
-        },
-        {
-            "good-luck": 7,
-            "content": "今天的工作一个人做进展会更顺利"
-        },
-        {
-            "good-luck": 7,
-            "content": "听点轻快的音乐就能进展顺利的一天"
-        },
-        {
-            "good-luck": -7,
-            "content": "凭借新的体验，得以加深自己的一天"
-        },
-        {
-            "good-luck": 23,
-            "content": "事业运顺畅！积极地向周围的人搭话吧"
-        },
-        {
-            "good-luck": 6,
-            "content": "在时尚上花钱"
-        },
-        {
-            "good-luck": 9,
-            "content": "即使准备工作很困难，也不要放过机会"
-        },
-        {
-            "good-luck": 9,
-            "content": "临时收入用来犒劳自己吧"
-        },
-        {
-            "good-luck": 9,
-            "content": "今天就尽可能收集情报吧！"
-        },
-        {
-            "good-luck": 8,
-            "content": "能接近理想的一天，积极行动吧！"
-        },
-        {
-            "good-luck": 8,
-            "content": "是该考虑如何妥善安排的时候！"
-        },
-        {
-            "good-luck": 24,
-            "content": "培养眼见也让财运UP吧！"
-        },
-        {
-            "good-luck": 21,
-            "content": "爱情方面有进展的机会，表现得坦率一些"
-        },
-        {
-            "good-luck": 7,
-            "content": "可能会抽到不错的签！？"
-        },
-        {
-            "good-luck": 7,
-            "content": "重在保持自我的日子，兴趣优先"
-        },
-        {
-            "good-luck": -7,
-            "content": "有在意的东西的话，便去获取它"
-        },
-        {
-            "good-luck": 10,
-            "content": "新的开始，会熠熠生辉的幸运日☆"
-        },
-        {
-            "good-luck": 9,
-            "content": "运气和实力会成为对你的期待"
-        },
-        {
-            "good-luck": 9,
-            "content": "定好今后的目标，每天都要为之努力"
-        },
-        {
-            "good-luck": 27,
-            "content": "人运旺盛！扩展人脉吧"
-        },
-        {
-            "good-luck": 9,
-            "content": "知觉敏锐的一天，随好奇心而动"
-        },
-        {
-            "good-luck": 8,
-            "content": "能走近他人内心的一天，温柔将会闪耀"
-        },
-        {
-            "good-luck": 8,
-            "content": "目前请仅专注于提升实力"
-        },
-        {
-            "good-luck": 8,
-            "content": "对教养的关注也可能会提高"
-        },
-        {
-            "good-luck": 7,
-            "content": "高难度的工作也能高效推进"
-        },
-        {
-            "good-luck": 7,
-            "content": "膳食选择质量优于数量，心情也会随之变好！"
-        },
-        {
-            "good-luck": 6,
-            "content": "买东西要慎重，不要吝啬交际费用"
-        },
-        {
-            "good-luck": -7,
-            "content": "心情变化剧烈的一天 凭借深呼吸冷静下来"
-        },
-        {
-            "good-luck": 10,
-            "content": "在提升技能与教养上花钱的话◎"
-        },
-        {
-            "good-luck": 27,
-            "content": "能够拓展人际关系的一天，谨慎地与人交往吧"
-        },
-        {
-            "good-luck": 9,
-            "content": "跨越眼下的困境将会得到很好的成长"
-        },
-        {
-            "good-luck": 9,
-            "content": "努力的话可以获得与之相应的成果的一天"
-        },
-        {
-            "good-luck": 9,
-            "content": "努力完成工作，自然能够磨炼自己的能力"
-        },
-        {
-            "good-luck": 8,
-            "content": "今天带最低限度的钱出门吧"
-        },
-        {
-            "good-luck": 8,
-            "content": "积蓄至今的努力，将会成为你突破波澜万丈的运气！"
-        },
-        {
-            "good-luck": 6,
-            "content": "不要焦急不要慌张，用心细致地完成工作吧！"
-        },
-        {
-            "good-luck": 7,
-            "content": "培养与人之间的羁绊，多进行愉快的谈话吧"
-        },
-        {
-            "good-luck": 5,
-            "content": "用心做出冷静的判断则吉"
-        },
-        {
-            "good-luck": 7,
-            "content": "勒紧钱包的话将会找到更加重要的东西"
-        },
-        {
-            "good-luck": -7,
-            "content": "是被人关注的一天，要把和谐关系放在第一位"
-        },
-        {
-            "good-luck": 10,
-            "content": "万事顺利的一天！"
-        },
-        {
-            "good-luck": 9,
-            "content": "相信自己的能力坚持到最后吧！"
-        },
-        {
-            "good-luck": 9,
-            "content": "有可能会被采用意见并且得到称赞哦"
-        },
-        {
-            "good-luck": 9,
-            "content": "用团队合作来提升工作质量吧！"
-        },
-        {
-            "good-luck": 9,
-            "content": "机遇无处不在，试着扩大一下活动范围吧"
-        },
-        {
-            "good-luck": 6,
-            "content": "天上可不会掉馅饼喔"
-        },
-        {
-            "good-luck": 6,
-            "content": "钱包少放钱，刷卡也避免"
-        },
-        {
-            "good-luck": 8,
-            "content": "或许会产生想要提高知识与修养的念头"
-        },
-        {
-            "good-luck": 7,
-            "content": "不拘泥于小节心情才会变得舒畅"
-        },
-        {
-            "good-luck": 7,
-            "content": "是时候为了取得资格而开始学习了"
-        },
-        {
-            "good-luck": 21,
-            "content": "或许会有爱情方面的收获 能让人心意相通的一天"
-        },
-        {
-            "good-luck": 10,
-            "content": "不要忘记谦虚的初心"
-        },
-        {
-            "good-luck": 9,
-            "content": "多与他人接触充实内心 亲切待人是好运的关键"
-        },
-        {
-            "good-luck": 26,
-            "content": "出乎想象开心的一天，把笑容分享给周围吧"
-        },
-        {
-            "good-luck": 9,
-            "content": "或许可以在SNS上领悟到什么人生启发！？"
-        },
-        {
-            "good-luck": 9,
-            "content": "是受人所托的一天，最好果断的行动"
-        },
-        {
-            "good-luck": 8,
-            "content": "内心冷静的一天，不慌不忙的度过吧"
-        },
-        {
-            "good-luck": 24,
-            "content": "文钱不落虚空，财运UP！"
-        },
-        {
-            "good-luck": 23,
-            "content": "可能会有机会得到能增长自己见识的副业"
-        },
-        {
-            "good-luck": 7,
-            "content": "心跳加速万分期待的日子，对进展要从容不迫"
-        },
-        {
-            "good-luck": 5,
-            "content": "珍惜私人时间明天才会更有活力"
-        },
-        {
-            "good-luck": 26,
-            "content": "自己和别人被承认的一天，要深深地点头认可"
-        },
-        {
-            "good-luck": -7,
-            "content": "既然得到他人劝告就要虚心改正"
-        },
-        {
-            "good-luck": 10,
-            "content": "能和人分享喜悦，露出最真实的一面吧"
-        },
-        {
-            "good-luck": 10,
-            "content": "通过主动去挑战会有所长进"
-        },
-        {
-            "good-luck": 9,
-            "content": "努力就会有成果的一天！"
-        },
-        {
-            "good-luck": 9,
-            "content": "能与别人很好合作的一天，坦率很重要"
-        },
-        {
-            "good-luck": 9,
-            "content": "会引人注目的一天！顺其自然"
-        },
-        {
-            "good-luck": 6,
-            "content": "也许忍住购物欲会比较好"
-        },
-        {
-            "good-luck": 8,
-            "content": "忙碌但能获得充实感！"
-        },
-        {
-            "good-luck": -7,
-            "content": "即使值得做的事，也可能心有余力而不足"
-        },
-        {
-            "good-luck": 8,
-            "content": "努力工作会得到认可的一天"
-        },
-        {
-            "good-luck": 7,
-            "content": "主动去挑战艰难的工作吧！"
-        },
-        {
-            "good-luck": 24,
-            "content": "也许能简单入手珍品！"
-        },
-        {
-            "good-luck": 24,
-            "content": "注意不要冲动购物，之后可能会后悔"
-        },
-        {
-            "good-luck": -7,
-            "content": "试着说一说自己奇特的想法"
-        },
-        {
-            "good-luck": 10,
-            "content": "把想法付诸到实践里试试！"
-        },
-        {
-            "good-luck": 9,
-            "content": "愿望或许能实现，寻求身边的协助会有好运"
-        },
-        {
-            "good-luck": 24,
-            "content": "存款可能会大大增加"
-        },
-        {
-            "good-luck": 9,
-            "content": "经济上的投资可能会带来临时收益哦！"
-        },
-        {
-            "good-luck": 9,
-            "content": "今天是适合收集情报的一天"
-        },
-        {
-            "good-luck": 8,
-            "content": "注意要脚踏实地的行动"
-        },
-        {
-            "good-luck": 8,
-            "content": "更加注意修养方面，在此之上更上一层楼吧！"
-        },
-        {
-            "good-luck": -7,
-            "content": "频繁地犯一些小失误，要冷静下来哦"
-        },
-        {
-            "good-luck": 27,
-            "content": "别人对你的信赖度可能会上升"
-        },
-        {
-            "good-luck": 7,
-            "content": "想买彩票的话今天相当合适"
-        },
-        {
-            "good-luck": 7,
-            "content": "不要害怕新的环境去尝试融入它吧"
-        },
-        {
-            "good-luck": -7,
-            "content": "表达意见的时候要注意尽量委婉的去表达吧"
-        },
-        {
-            "good-luck": 10,
-            "content": "内心丰富多彩的一天，值得沉浸在自己喜欢的事物里"
-        },
-        {
-            "good-luck": 24,
-            "content": "财运非常棒的一天！能有效的利用自己的财产"
-        },
-        {
-            "good-luck": 21,
-            "content": "大展才能！女性友人是幸运的关键"
-        },
-        {
-            "good-luck": 27,
-            "content": "似乎与难得的伙伴有缘！"
-        },
-        {
-            "good-luck": 9,
-            "content": "慷慨的花钱，磨炼自我！"
-        },
-        {
-            "good-luck": 5,
-            "content": "今天听到的能赚钱的话语，最好不要上心"
-        },
-        {
-            "good-luck": 8,
-            "content": "你的想法似乎能得到高度评价"
-        },
-        {
-            "good-luck": 8,
-            "content": "立刻开始学习你感到需要的知识和修养"
-        },
-        {
-            "good-luck": 24,
-            "content": "财运很棒，是再一次开始存钱的机会"
-        },
-        {
-            "good-luck": 7,
-            "content": "可以尝试着开始学习以提高能力"
-        },
-        {
-            "good-luck": 7,
-            "content": "似乎可以遇到能长时间使用的东西，凭直觉去购买"
-        },
-        {
-            "good-luck": -7,
-            "content": "定下目标，挑战一下试试！"
-        },
-        {
-            "good-luck": 10,
-            "content": "无论独自一人还是与人相伴都可以充实度过的一天"
-        },
-        {
-            "good-luck": 9,
-            "content": "能够准确的行动的一天"
-        },
-        {
-            "good-luck": 9,
-            "content": "为了达成今后的目标要制定财务计划"
-        },
-        {
-            "good-luck": 9,
-            "content": "会萌生出未曾发现的能力哦！"
-        },
-        {
-            "good-luck": 9,
-            "content": "若是被相中为指挥者，就奋起一搏吧！"
-        },
-        {
-            "good-luck": 8,
-            "content": "慎重的选择发言会拥有喜悦的一天"
-        },
-        {
-            "good-luck": 8,
-            "content": "践行理想的一天，带着笑容向前进吧"
-        },
-        {
-            "good-luck": 8,
-            "content": "幸运将会造访你未来的憧憬，做出积极的发言吧"
-        },
-        {
-            "good-luck": 7,
-            "content": "努力的人将会在今天收获果实"
-        },
-        {
-            "good-luck": 7,
-            "content": "安稳的一天，要重视自己该有的时机"
-        },
-        {
-            "good-luck": 21,
-            "content": "或许会出现欣赏你魅力的人！？"
-        },
-        {
-            "good-luck": -7,
-            "content": "多注意好事的两面性哦"
-        },
-        {
-            "good-luck": 27,
-            "content": "人气运上升！绽放笑容吧"
-        },
-        {
-            "good-luck": 21,
-            "content": "受异性青睐的日子，相信自己的魅力"
-        },
-        {
-            "good-luck": 9,
-            "content": "花钱可能使幸运值上升！"
-        },
-        {
-            "good-luck": 9,
-            "content": "会与能人异士邂逅！放低姿态"
-        },
-        {
-            "good-luck": 9,
-            "content": "自由的行动中寄宿了幸运的日子"
-        },
-        {
-            "good-luck": 8,
-            "content": "感性变丰富的日子，接触一些美好食物吧"
-        },
-        {
-            "good-luck": 24,
-            "content": "只在钱包里准备最低限度的钱"
-        },
-        {
-            "good-luck": 8,
-            "content": "被摆脱帮忙就做力所能及的事，十分耀眼"
-        },
-        {
-            "good-luck": 7,
-            "content": "在这样那样的迷茫之中也能享受的日子"
-        },
-        {
-            "good-luck": 21,
-            "content": "能得到异性关注的日子，端正姿态"
-        },
-        {
-            "good-luck": 7,
-            "content": "精心计划交际费用，赠礼应当积极！"
-        },
-        {
-            "good-luck": -7,
-            "content": "在接近目标的分岔路上用心做出选择"
-        },
-        {
-            "good-luck": 10,
-            "content": "试试为了磨炼自己而花费时间◎"
-        },
-        {
-            "good-luck": 27,
-            "content": "靠连带意识和同伴意识创造良好的氛围"
-        },
-        {
-            "good-luck": 9,
-            "content": "眼见很准确的一天，做有益的购物吧"
-        },
-        {
-            "good-luck": 9,
-            "content": "自身魅力闪耀之日，珍视喜爱的东西"
-        },
-        {
-            "good-luck": 9,
-            "content": "靠让自己变忙提升能力！"
-        },
-        {
-            "good-luck": 8,
-            "content": "对手上的锅也会感觉到有意义"
-        },
-        {
-            "good-luck": 8,
-            "content": "行动力突出！时间和金钱都尽情使用吧"
-        },
-        {
-            "good-luck": -7,
-            "content": "熟练之事也会犯低级错误？"
-        },
-        {
-            "good-luck": 24,
-            "content": "财运滚滚，也分给身边的人一些"
-        },
-        {
-            "good-luck": 23,
-            "content": "设置好大家都能愉快工作的环境"
-        },
-        {
-            "good-luck": 7,
-            "content": "可以期待心跳的日子，放慢脚步"
-        },
-        {
-            "good-luck": 5,
-            "content": "虽伴有风险，成功的预感也颇高！"
-        }
-    ]
-}
+[
+    {
+        "charaid": ["1", "2"],
+        "_name": "凯露",
+        "type": [
+            {
+                "good-luck": 10,
+                "content": "仅限今天而已！别想多了！！"
+            },
+            {
+                "good-luck": 8,
+                "content": "宜抽卡﹁十连五彩不是梦﹂"
+            },
+            {
+                "good-luck": 7,
+                "content": "宜刷本﹁碎片装备一大堆！你是托吧﹂"
+            },
+            {
+                "good-luck": 6,
+                "content": "还不学习吗，殺すわよっ！"
+            },
+            {
+                "good-luck": -6,
+                "content": "忌抽卡﹁这个池子不行的，没有3x啊﹂"
+            },
+            {
+                "good-luck": -9,
+                "content": "ヤバイわよ！钱包又没了"
+            },
+            {
+                "good-luck": 5,
+                "content": "双场排名飞升"
+            },
+            {
+                "good-luck": -7,
+                "content": "伊莉亚又暴击了︵对自己"
+            },
+            {
+                "good-luck": -8,
+                "content": "害学习呢，你被梯了"
+            },
+            {
+                "good-luck": -10,
+                "content": "遇到困难，睡大觉"
+            },
+            {
+                "good-luck": 24,
+                "content": "金运不错，所以你能借钱给我吗？"
+            }
+        ]
+    },
+    {
+        "charaid": ["3", "4"],
+        "_name": "初音",
+        "type": [
+            {
+                "good-luck": 10,
+                "content": "Kira☆今天运气绝佳♫"
+            },
+            {
+                "good-luck": 9,
+                "content": "睡个午觉可以变清爽一点☆"
+            },
+            {
+                "good-luck": 4,
+                "content": "醒醒你体力满了！"
+            },
+            {
+                "good-luck": -6,
+                "content": "梦到熬夜赶ddl"
+            },
+            {
+                "good-luck": -9,
+                "content": "用超能力的话，运气会不会好一点呢"
+            },
+            {
+                "good-luck": 20,
+                "content": "ハツネちゃんの应援だよ！一切都会好起来的"
+            },
+            {
+                "good-luck": 25,
+                "content": "叫上栞栞一起学习吧"
+            }
+        ]
+    },
+    {
+        "charaid": ["5", "6"],
+        "_name": "杏奈",
+        "type": [
+            {
+                "good-luck": 8,
+                "content": "氷狂凍獄絶零破！︵宜JJC"
+            },
+            {
+                "good-luck": 7,
+                "content": "我ら煉獄に舞いし一陣の疾風︵宜现充"
+            },
+            {
+                "good-luck": 4,
+                "content": "就到此为止了吗…︵宜摸鱼"
+            },
+            {
+                "good-luck": -6,
+                "content": "冥 空 天 升︵会被演"
+            },
+            {
+                "good-luck": -8,
+                "content": "会被提起黑历史"
+            },
+            {
+                "good-luck": 21,
+                "content": "邪王真眼、我会追上你的︵宜表白"
+            }
+        ]
+    },
+    {
+        "charaid": ["7", "8"],
+        "_name": "优妮",
+        "type": [
+            {
+                "good-luck": 7,
+                "content": "宜学习﹁今天去图书馆自习吗﹂"
+            },
+            {
+                "good-luck": 5,
+                "content": "宜击剑﹁讨论人性与哲学光辉﹂"
+            },
+            {
+                "good-luck": 4,
+                "content": "论文的事，需要帮忙吗"
+            },
+            {
+                "good-luck": -6,
+                "content": "会思考怎么拆对手到超时"
+            },
+            {
+                "good-luck": -7,
+                "content": "会忘记每日十连"
+            },
+            {
+                "good-luck": -9,
+                "content": "忌表白﹁啊啊，浓咖啡真好喝﹂"
+            },
+            {
+                "good-luck": 26,
+                "content": "見たまえ同志！これこそわ﹁ユニちゃんズ﹂！"
+            }
+        ]
+    },
+    {
+        "charaid": ["9", "10"],
+        "_name": "琪爱儿",
+        "type": [
+            {
+                "good-luck": 9,
+                "content": "切噜☆♪"
+            },
+            {
+                "good-luck": 6,
+                "content": "宜水群﹁你就是龙王切噜♪﹂"
+            },
+            {
+                "good-luck": 4,
+                "content": "末小吉就是说你今天也没什么运气切噜噜"
+            },
+            {
+                "good-luck": -6,
+                "content": "忌装弱﹁因为先辈你本来就很弱切噜♪﹂"
+            },
+            {
+                "good-luck": -9,
+                "content": "切噜噜噜噜♪困难本0碎切噜！"
+            },
+            {
+                "good-luck": 27,
+                "content": "总是萌混过关是交不到朋友的切噜☆"
+            }
+        ]
+    },
+    {
+        "charaid": ["11", "12"],
+        "_name": "克萝依",
+        "type": [
+            {
+                "good-luck": 10,
+                "content": "哦|偶尔也会有这样的日子呢，偶尔就是了"
+            },
+            {
+                "good-luck": 6,
+                "content": "JJC啊，没几个人打你的"
+            },
+            {
+                "good-luck": 5,
+                "content": "小心拖延症"
+            },
+            {
+                "good-luck": -7,
+                "content": "会跨服聊天"
+            },
+            {
+                "good-luck": -8,
+                "content": "水群会冷场"
+            },
+            {
+                "good-luck": 23,
+                "content": "工作总是遇到奇怪的人"
+            }
+        ]
+    },
+    {
+        "charaid": ["13", "14"],
+        "_name": "静流",
+        "type": [
+            {
+                "good-luck": 9,
+                "content": "会十连出碎片"
+            },
+            {
+                "good-luck": 8,
+                "content": "宜熬夜爆肝"
+            },
+            {
+                "good-luck": 5,
+                "content": "宜出刀﹁希望弟弟暴击﹂"
+            },
+            {
+                "good-luck": -6,
+                "content": "抽卡会+19"
+            },
+            {
+                "good-luck": -8,
+                "content": "没什么精神，要姐姐的头槌清醒下吗♡"
+            },
+            {
+                "good-luck": 21,
+                "content": "偷跑才是王道！︵冬马&静流"
+            }
+        ]
+    },
+    {
+        "charaid": ["15", "16"],
+        "_name": "惠理子",
+        "type": [
+            {
+                "good-luck": 10,
+                "content": "诸事皆宜"
+            },
+            {
+                "good-luck": 7,
+                "content": "宜现充﹁会遇到命 运 之 人﹂"
+            },
+            {
+                "good-luck": -7,
+                "content": "你就是记仇碎钻回刺人"
+            },
+            {
+                "good-luck": -8,
+                "content": "忌dd﹁别的女人就这么吸引你吗﹂"
+            },
+            {
+                "good-luck": -10,
+                "content": "今天……一直会在你身后的"
+            },
+            {
+                "good-luck": 22,
+                "content": "爱情也需要调味料︵电脑配件"
+            }
+        ]
+    },
+    {
+        "charaid": ["17", "18"],
+        "_name": "优花梨",
+        "type": [
+            {
+                "good-luck": 8,
+                "content": "宜社畜﹁你就是戒酒后的优花梨﹂"
+            },
+            {
+                "good-luck": 7,
+                "content": "宜摸鱼﹁我就再喝亿杯﹂"
+            },
+            {
+                "good-luck": 4,
+                "content": "宜追番﹁守护最好的二刺螈﹂"
+            },
+            {
+                "good-luck": -7,
+                "content": "忌现充﹁现充爆炸吧﹂"
+            },
+            {
+                "good-luck": -8,
+                "content": "優花梨，为什么不喝呢~♫"
+            },
+            {
+                "good-luck": 20,
+                "content": "运气用在了没用的地方"
+            }
+        ]
+    },
+    {
+        "charaid": ["19", "20"],
+        "_name": "空花",
+        "type": [
+            {
+                "good-luck": 9,
+                "content": "宜摸鱼﹁空花的妄想停不下来﹂"
+            },
+            {
+                "good-luck": 7,
+                "content": "宜瑟图﹁群涩批时不时来暴露xp﹂"
+            },
+            {
+                "good-luck": -6,
+                "content": "忌社畜﹁会被当成抖M﹂"
+            },
+            {
+                "good-luck": -7,
+                "content": "忌水群﹁会被放置PLAY﹂"
+            },
+            {
+                "good-luck": -8,
+                "content": "忌瑟图﹁哦淦老兄你xp好怪啊﹂"
+            },
+            {
+                "good-luck": 26,
+                "content": "摩多摩多摩多~"
+            }
+        ]
+    },
+    {
+        "charaid": ["21", "22"],
+        "_name": "忍",
+        "type": [
+            {
+                "good-luck": 8,
+                "content": "父亲说这个占卜一点都不准。。。"
+            },
+            {
+                "good-luck": 6,
+                "content": "宜DD﹁骷髅老爹也想栞栞！﹂"
+            },
+            {
+                "good-luck": 4,
+                "content": "宜对线﹁你就是送爸人﹂"
+            },
+            {
+                "good-luck": -7,
+                "content": "忌抽卡﹁父亲的占卜罢了，你身后是有挺多怨灵的﹂"
+            },
+            {
+                "good-luck": -9,
+                "content": "忌表白﹁会得骷髅老爹真传﹂"
+            },
+            {
+                "good-luck": 20,
+                "content": "今天你身边也是有各种各样的幽灵在呢"
+            }
+        ]
+    },
+    {
+        "charaid": ["23", "24"],
+        "_name": "真步",
+        "type": [
+            {
+                "good-luck": 10,
+                "content": "みらくるもほりん、くるりんぱ"
+            },
+            {
+                "good-luck": 7,
+                "content": "宜刷本﹁这个是真步真步N3魔法！﹂"
+            },
+            {
+                "good-luck": 5,
+                "content": "宜膜佬﹁？这真步河里﹂"
+            },
+            {
+                "good-luck": -6,
+                "content": "宜复读﹁真步真步教○脑开始﹂"
+            },
+            {
+                "good-luck": -7,
+                "content": "忌竞技场﹁那么，答案就只有一个了！﹂"
+            },
+            {
+                "good-luck": 20,
+                "content": "咕噜灵波~"
+            }
+        ]
+    },
+    {
+        "charaid": ["25", "26"],
+        "_name": "茜里",
+        "type": [
+            {
+                "good-luck": 6,
+                "content": "宜出游﹁诶诶要在外面吗﹂"
+            },
+            {
+                "good-luck": 5,
+                "content": "宜运动﹁这样的、太激烈了嗯﹂"
+            },
+            {
+                "good-luck": 4,
+                "content": "那里，已经满满的了︵指体力"
+            },
+            {
+                "good-luck": -7,
+                "content": "明明还是早上就要从后面。。。︵打回前排"
+            },
+            {
+                "good-luck": -9,
+                "content": "忌瑟图﹁是谁害想着开车呢爪巴﹂"
+            },
+            {
+                "good-luck": 21,
+                "content": "这种事，就是两个人一起会变舒服︵心情上︶的对吧？"
+            }
+        ]
+    },
+    {
+        "charaid": ["27", "28"],
+        "_name": "镜华",
+        "type": [
+            {
+                "good-luck": 7,
+                "content": "宜水群﹁今天你就是喷水龙王﹂"
+            },
+            {
+                "good-luck": 5,
+                "content": "宜社畜﹁就算很讨厌，今天我也努力吃了一片胡萝卜﹂"
+            },
+            {
+                "good-luck": 6,
+                "content": "宜出刀﹁虽然希望可以暴击変態桑而不是王﹂"
+            },
+            {
+                "good-luck": -6,
+                "content": "忌装弱﹁优妮就算了，你也想叫妈妈？﹂"
+            },
+            {
+                "good-luck": 26,
+                "content": "全体运会不会是能吃到纸杯蛋糕呢"
+            },
+            {
+                "good-luck": 27,
+                "content": "変態変態変態変態！"
+            }
+        ]
+    },
+    {
+        "charaid": ["29", "30"],
+        "_name": "美美",
+        "type": [
+            {
+                "good-luck": 8,
+                "content": "天兔霸断剑，要试试吗"
+            },
+            {
+                "good-luck": 7,
+                "content": "宜出游﹁会遇到小萝莉﹂"
+            },
+            {
+                "good-luck": 4,
+                "content": "宜刷本﹁お兄ちゃん見ていて、いっぱい箱！﹂"
+            },
+            {
+                "good-luck": -7,
+                "content": "忌出刀﹁美美的狮鹫长大了也会伤害它吗﹂"
+            },
+            {
+                "good-luck": -8,
+                "content": "这个月会战摸了"
+            },
+            {
+                "good-luck": 27,
+                "content": "镜华和未奏希也会吵架，但最后还是会和好的"
+            }
+        ]
+    },
+    {
+        "charaid": ["31", "32"],
+        "_name": "未奏希",
+        "type": [
+            {
+                "good-luck": 8,
+                "content": "宜刷本﹁成功避开攻略烟雾弹﹂"
+            },
+            {
+                "good-luck": 5,
+                "content": "宜摸鱼﹁每天三刀甜心刀，大家一起睡饱饱﹂"
+            },
+            {
+                "good-luck": 5,
+                "content": "小 心 熊 孩 子"
+            },
+            {
+                "good-luck": -6,
+                "content": "忌出刀﹁刚跟镜华吵完架，现在是0暴镜华﹂"
+            },
+            {
+                "good-luck": -8,
+                "content": "忌作死﹁自己挖的陷阱，自己踩下去﹂"
+            },
+            {
+                "good-luck": 25,
+                "content": "哎呀，学不会啊！"
+            }
+        ]
+    },
+    {
+        "charaid": ["33", "34"],
+        "_name": "怜",
+        "type": [
+            {
+                "good-luck": 7,
+                "content": "宜钓鱼﹁剑圣之意不在鱼，在乎：：﹂"
+            },
+            {
+                "good-luck": 5,
+                "content": "宜击剑﹁要刺得快！刺得狠！﹂"
+            },
+            {
+                "good-luck": 4,
+                "content": "宜现充﹁一起特训到晚上吧﹂"
+            },
+            {
+                "good-luck": -8,
+                "content": "今天你就是老醋坛︵士条怜︶了"
+            },
+            {
+                "good-luck": -10,
+                "content": "忌摸鱼﹁当你偷偷快乐的时候，优衣正在凝视着你﹂"
+            },
+            {
+                "good-luck": 23,
+                "content": "遇到困难的时候，男？朋友总会帮你︵雪乃&怜"
+            }
+        ]
+    },
+    {
+        "charaid": ["35", "36"],
+        "_name": "优衣",
+        "type": [
+            {
+                "good-luck": 10,
+                "content": "诸事皆宜！今、今后也请：：︵宕机"
+            },
+            {
+                "good-luck": 6,
+                "content": "宜现充﹁朋？友都会顾及关心你﹂"
+            },
+            {
+                "good-luck": -6,
+                "content": "说着对不起实际却偷吃的屑都不配被我奶"
+            },
+            {
+                "good-luck": -7,
+                "content": "忌表白﹁诶诶诶我怎么又被对不起了﹂"
+            },
+            {
+                "good-luck": -10,
+                "content": "忌抽卡﹁又井了呢，骑士君﹂"
+            },
+            {
+                "good-luck": 21,
+                "content": "不许说对不起！"
+            }
+        ]
+    },
+    {
+        "charaid": ["37", "38"],
+        "_name": "日和莉",
+        "type": [
+            {
+                "good-luck": 9,
+                "content": "宜竞技场﹁欧拉欧拉欧拉欧拉欧拉！﹂"
+            },
+            {
+                "good-luck": 8,
+                "content": "日行一善会有好事发生"
+            },
+            {
+                "good-luck": 6,
+                "content": "宜对线﹁那就对他使用炎拳吧﹂"
+            },
+            {
+                "good-luck": -7,
+                "content": "忌偏见﹁你以为我是猫，其实我是老虎哒﹂"
+            },
+            {
+                "good-luck": -8,
+                "content": "忌表白﹁游戏也好，相遇也好，明明是我先来的﹂"
+            },
+            {
+                "good-luck": 27,
+                "content": "开朗活泼想要保持他人关系，到底哪里出错了︵团子&日和莉"
+            }
+        ]
+    },
+    {
+        "charaid": ["39", "40"],
+        "_name": "贪吃佩可",
+        "type": [
+            {
+                "good-luck": 10,
+                "content": "んま～い！ごはんは命のエネルギー☆"
+            },
+            {
+                "good-luck": 7,
+                "content": "宜现充﹁おいっす～☆﹂"
+            },
+            {
+                "good-luck": 5,
+                "content": "宜二刺猿﹁真男人就该？高达﹂"
+            },
+            {
+                "good-luck": -7,
+                "content": "今日性能降低﹁因为好吃就是高兴嘛﹂"
+            },
+            {
+                "good-luck": -10,
+                "content": "忌水群﹁群霸瞳篡改群员记忆导致冷场﹂"
+            },
+            {
+                "good-luck": 20,
+                "content": "ヤバイですね‼"
+            }
+        ]
+    },
+    {
+        "charaid": ["41", "42"],
+        "_name": "可可萝",
+        "type": [
+            {
+                "good-luck": 10,
+                "content": "今天也做得很好、主さま"
+            },
+            {
+                "good-luck": 9,
+                "content": "宜抽卡﹁爱梅斯大人说今天又会遇到新的女生﹂"
+            },
+            {
+                "good-luck": 8,
+                "content": "宜刷本﹁已经让密涅瓦偷偷改过数据了﹂"
+            },
+            {
+                "good-luck": -8,
+                "content": "果然又是主人认识的女生，以后叫わんわんの主さま好了"
+            },
+            {
+                "good-luck": -9,
+                "content": "忌半途而废﹁第几次转生了，DD﹂"
+            },
+            {
+                "good-luck": 26,
+                "content": "诸事皆宜"
+            }
+        ]
+    },
+        {
+        "charaid": ["43", "44"],
+        "_name": "璃乃",
+        "type": [
+            {
+                "good-luck": 10,
+                "content": "宜抽卡！3x会像射出的箭雨一样多"
+            },
+            {
+                "good-luck": 8,
+                "content": "宜学习﹁这次就不会再落榜了！﹂"
+            },
+            {
+                "good-luck": 4,
+                "content": "宜出游﹁只是监视哥哥的任务罢了﹂"
+            },
+            {
+                "good-luck": -6,
+                "content": "忌熬夜﹁不是每个人醒来后会有心上人的膝枕的﹂"
+            },
+            {
+                "good-luck": -9,
+                "content": "忌表白﹁会被别人︵静流进行失忆头槌﹂"
+            },
+            {
+                "good-luck": 20,
+                "content": "各方面都要注意，大意吃津粥"
+            }
+        ]
+    },
+        {
+        "charaid": ["45", "46"],
+        "_name": "克里斯蒂娜",
+        "type": [
+            {
+                "good-luck": 8,
+                "content": "宜现充﹁遵守誓约会留下好印象﹂"
+            },
+            {
+                "good-luck": 7,
+                "content": "宜出刀﹁你就是无情的南瓜大菠萝机器﹂"
+            },
+            {
+                "good-luck": 6,
+                "content": "宜竞技场﹁就这就这，太弱了﹂"
+            },
+            {
+                "good-luck": -6,
+                "content": "忌社畜﹁会作死顶撞到上司﹂"
+            },
+            {
+                "good-luck": 23,
+                "content": "就像我现在是经纪人一样，换个环境也未尝不可"
+            },
+            {
+                "good-luck": 22,
+                "content": "年龄可算不上是问题"
+            }
+        ]
+    },
+        {
+        "charaid": ["47", "48"],
+        "_name": "栞",
+        "type": [
+            {
+                "good-luck": 9,
+                "content": "宜学习﹁新书买来了，要一起看吗？﹂"
+            },
+            {
+                "good-luck": 5,
+                "content": "宜撸猫﹁小喵特是个乖孩子呢﹂"
+            },
+            {
+                "good-luck": 4,
+                "content": "宜出游﹁多晒晒太阳有利身体健康﹂"
+            },
+            {
+                "good-luck": -6,
+                "content": "注意健康﹁抱歉::是我把感冒传给你了吗﹂"
+            },
+            {
+                "good-luck": -7,
+                "content": "忌社畜﹁不要太过勉强自己，适时寻求他人帮助﹂"
+            },
+            {
+                "good-luck": 27,
+                "content": "今天好像状态不错，要叫上姐姐一起出去走走吗"
+            }
+        ]
+    },
+        {
+        "charaid": ["49", "50"],
+        "_name": "铃奈",
+        "type": [
+            {
+                "good-luck": 7,
+                "content": "宜推图﹁我暴击弓一箭一个铁乌龟︵雾﹂"
+            },
+            {
+                "good-luck": 6,
+                "content": "宜现充﹁好想变成跟望一样人气爆棚﹂"
+            },
+            {
+                "good-luck": 6,
+                "content": "宜黄油﹁这个gal不是那个gal啊！﹂"
+            },
+            {
+                "good-luck": -7,
+                "content": "会健忘﹁7×7等于多少来着？﹂"
+            },
+            {
+                "good-luck": -9,
+                "content": "镜暴唯连空花都杀不死"
+            },
+            {
+                "good-luck": 25,
+                "content": "好难啊！秀才教交我！"
+            }
+        ]
+    },
+        {
+        "charaid": ["51", "52"],
+        "_name": "咲恋",
+        "type": [
+            {
+                "good-luck": 10,
+                "content": "投入努力会获得回报"
+            },
+            {
+                "good-luck": 8,
+                "content": "宜助人﹁被叫咲恋妈妈其实有点开心的﹂"
+            },
+            {
+                "good-luck": 5,
+                "content": "宜访友﹁真正的青梅竹马就算世界重置了也还记得对方﹂"
+            },
+            {
+                "good-luck": -7,
+                "content": "忌氪金﹁这些钱拿来买3080不香吗﹂"
+            },
+            {
+                "good-luck": -9,
+                "content": "忌水群﹁会被群员掏出傻逼.gif进行嘲笑﹂"
+            },
+            {
+                "good-luck": 23,
+                "content": "为了救济院的孩子们，遇到困难也能坚持下去"
+            }
+        ]
+    },
+        {
+        "charaid": ["53", "54"],
+        "_name": "露娜",
+        "type": [
+            {
+                "good-luck": 7,
+                "content": "宜现充﹁可以跟我做朋友吗︵迫真﹂"
+            },
+            {
+                "good-luck": -6,
+                "content": "宜摸鱼﹁工作是不可能的，朋友又交不到，只好摸了﹂"
+            },
+            {
+                "good-luck": -7,
+                "content": "忌出刀﹁会长我xcw暴击了﹂"
+            },
+            {
+                "good-luck": -10,
+                "content": "会长我不想再出挂树春黑刀了"
+            },
+            {
+                "good-luck": 27,
+                "content": "明明想交很多朋友的，为什么都避着我"
+            }
+        ]
+    },
+        {
+        "charaid": ["55", "56"],
+        "_name": "霞",
+        "type": [
+            {
+                "good-luck": 8,
+                "content": "唔姆，今天也要拜托你了"
+            },
+            {
+                "good-luck": 6,
+                "content": "冷静分析会得出问题的最优解"
+            },
+            {
+                "good-luck": 5,
+                "content": "宜打？﹁小问号，你是不是有很多朋友﹂"
+            },
+            {
+                "good-luck": -6,
+                "content": "为人际关系烦恼﹁让我调查看看是谁伤害了优衣﹂"
+            },
+            {
+                "good-luck": -8,
+                "content": "会被误解﹁是杜宾不是驴！﹂"
+            },
+            {
+                "good-luck": 20,
+                "content": "助手くん，有问题的话尽管交给王都名侦探我吧！"
+            }
+        ]
+    },
+        {
+        "charaid": ["57", "58"],
+        "_name": "真琴",
+        "type": [
+            {
+                "good-luck": 10,
+                "content": "ごめんユイ‼"
+            },
+            {
+                "good-luck": 7,
+                "content": "宜熬夜﹁要跟我一起夜间巡逻吗﹂"
+            },
+            {
+                "good-luck": 6,
+                "content": "宜学习﹁又要数学测试了，上课不能睡着了啊﹂"
+            },
+            {
+                "good-luck": -8,
+                "content": "会出糗﹁小、小熊胖次怎么了！﹂"
+            },
+            {
+                "good-luck": -9,
+                "content": "忌出刀﹁会不小心卡掉狼吼﹂"
+            },
+            {
+                "good-luck": 21,
+                "content": "伤害优衣的家伙在哪啊！"
+            }
+        ]
+    },
+        {
+        "charaid": ["59", "60"],
+        "_name": "香织",
+        "type": [
+            {
+                "good-luck": 10,
+                "content": "一切都会暴击的！"
+            },
+            {
+                "good-luck": 5,
+                "content": "宜抽卡﹁精神统一切入中线拿下up一气呵成﹂"
+            },
+            {
+                "good-luck": 4,
+                "content": "宜吃瓜﹁你也来一点？︵苦︶瓜很好吃的！﹂"
+            },
+            {
+                "good-luck": -6,
+                "content": "忌出刀﹁重要的东西在树上﹂"
+            },
+            {
+                "good-luck": -10,
+                "content": "忌竞技场﹁狗拳又砸幽灵布丁上了﹂"
+            },
+            {
+                "good-luck": 20,
+                "content": "一切都会好起来的！"
+            }
+        ]
+    },
+        {
+        "charaid": ["61", "62"],
+        "_name": "亚里莎",
+        "type": [
+            {
+                "good-luck": 7,
+                "content": "宜出游﹁咖啡店的女仆制服想看看吗﹂"
+            },
+            {
+                "good-luck": 6,
+                "content": "宜访友﹁不知道萝赛莉亚现在怎么样了﹂"
+            },
+            {
+                "good-luck": 5,
+                "content": "宜瑟图﹁会不停射爆﹂"
+            },
+            {
+                "good-luck": -7,
+                "content": "MISS﹁我在兰德索尔也会变成地心少女吗﹂"
+            },
+            {
+                "good-luck": -8,
+                "content": "会变成星际玩家"
+            },
+            {
+                "good-luck": 26,
+                "content": "找到四叶草了！看来是会有好运"
+            }
+        ]
+    },
+        {
+        "charaid": ["63", "64"],
+        "_name": "望",
+        "type": [
+            {
+                "good-luck": 9,
+                "content": "宜单推﹁演唱会，要来看吗﹂"
+            },
+            {
+                "good-luck": 8,
+                "content": "宜表白﹁这是为了写出歌词的约会练习﹂"
+            },
+            {
+                "good-luck": 4,
+                "content": "宜运动﹁偶像活动也需要锻炼身体！﹂"
+            },
+            {
+                "good-luck": -6,
+                "content": "吃得太多又变胖了"
+            },
+            {
+                "good-luck": -9,
+                "content": "忌装弱﹁会被群友识破伪装﹂"
+            },
+            {
+                "good-luck": 21,
+                "content": "偶像也有偶像的烦恼，好想谈一场普通的恋爱啊"
+            }
+        ]
+    },
+        {
+        "charaid": ["65"],
+        "_name": "晶",
+        "type": [
+            {
+                "good-luck": 10,
+                "content": "今后也请作为我的公主骑士努力吧"
+            },
+            {
+                "good-luck": 7,
+                "content": "宜游戏﹁你就是GM﹂"
+            },
+            {
+                "good-luck": 5,
+                "content": "宜摸鱼﹁重要人物只有关键时刻才会出场﹂"
+            },
+            {
+                "good-luck": -7,
+                "content": "忌下厨﹁纳豆奶油可丽饼好像不错啊﹂"
+            },
+            {
+                "good-luck": 24,
+                "content": "可丽饼卖不出去啊，是哪里出问题了"
+            }
+        ]
+    },
+        {
+        "charaid": ["66"],
+        "_name": "花凛",
+        "type": [
+            {
+                "good-luck": 10,
+                "content": "ヤバイですね☆幸运物是饭团！吃得饱饱的，继续抽下去吧！"
+            },
+            {
+                "good-luck": 7,
+                "content": "幸运动物是熊！或许能像真正家人一样守护你︵不会吃井"
+            },
+            {
+                "good-luck": 5,
+                "content": "宜抽卡﹁十连一定会出金，出金一定会吃井﹂"
+            },
+            {
+                "good-luck": -9,
+                "content": "要小心突发事件！出门可能会被当成「吃井的人」……"
+            },
+            {
+                "good-luck": -10,
+                "content": "来了来了，这是你要的+19"
+            },
+            {
+                "good-luck": 20,
+                "content": "你醒啦，我帮你调低3x概率了"
+            }
+        ]
+    }
+]

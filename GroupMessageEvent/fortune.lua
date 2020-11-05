@@ -35,6 +35,5 @@ local fortune = function (event)
 end
 
 return {
-  run = fortune,
-  event = {"GroupMessageEvent"}
+  run = fortune
 }
