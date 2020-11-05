@@ -24,10 +24,8 @@ end
 
 local function init()
   -- 创建database
-  local file = io.open("database", "rb")
-  if file ~=nil then
-    io.close(file)
-  else
+  local ret = os.execute("cd database")
+  if ret ~= true then
     os.execute("mkdir database")
   end
 end
