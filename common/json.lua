@@ -398,6 +398,9 @@ end
 
 function json.write(path, content)
   local file = io.open(dir..path, "w")
+  if content == nil then
+    return
+  end
   file:write(json.encode(content))
   io.close(file)
   return
