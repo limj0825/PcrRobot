@@ -98,16 +98,16 @@ local start = function (event)
       msg = msg.."\n"..num..". "..member.nameCardOrNick.." "..v.times.." 次"
     end
     if num == 0 then
-      msg = msg.."还没有人猜头像呢!"
+      msg = msg.."\n还没有人猜头像呢!"
     end
     group:sendMessage(msg)
   else
-    local rank = json.read(rankPath)
     if not game or data == "..." then
       return
     end
     for i = 1, #data[id] do
       if msg == data[id][i] then
+        local rank = json.read(rankPath)
         game = false
         if rank[tostring(sender.id)] == nil then
           rank[tostring(sender.id)] = 0
