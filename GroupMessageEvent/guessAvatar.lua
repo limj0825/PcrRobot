@@ -70,12 +70,12 @@ local start = function (event)
       getRandAvatar()
     end
     local crop = exec("python3 common/image.py guessAvatar "..path)[1]
+    group:sendMessage("猜猜下面这个图片是来自哪位角色头像的一部分(20s后公布答案)\n"..ImageUrl("file://"..crop, group))
     bot:launch(function()
-      group:sendMessage("猜猜下面这个图片是来自哪位角色头像的一部分(20s后公布答案)\n"..ImageUrl("file://"..crop, group))
       os.execute("sleep 20s")
       if game and nowTurn == turn then
-        group:sendMessage("很遗憾，没有人猜对，正确答案是 "..data[id][1].."\n"..ImageUrl("file://"..path, group))
         game = false
+        group:sendMessage("很遗憾，没有人猜对，正确答案是 "..data[id][1].."\n"..ImageUrl("file://"..path, group))
       end
     end)
   elseif msg == "猜头像排行榜" then
@@ -115,6 +115,7 @@ local start = function (event)
         rank[tostring(sender.id)] = rank[tostring(sender.id)] + 1
         group:sendMessage(At(sender).." 猜对了，正确答案是 "..data[id][1].." TA已经猜对了 "..tostring(rank[tostring(sender.id)]).." 次了\n"..ImageUrl("file://"..path, group))
         json.write(rankPath, rank)
+        break
       end
     end
   end
