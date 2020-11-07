@@ -1,4 +1,5 @@
 local exec = require("common/osexec").exec
+local config = require("config")
 
 local function loadDir(bot, dir)
   local files = exec("ls "..dir)
@@ -28,14 +29,21 @@ local function init()
   end
 end
 
+local function banMute (event)
+  os.execute("echo 开发者被禁言立马解除")
+  if event.member.id == config.AdminQQ then
+    event.member:unMute()
+  end
+end
+
 local function onLoad(bot)
   init()
   loadDir(bot, "GroupMessageEvent")
+  bot:subscribe("MemberMuteEvent", banMute)
   -- 如果因为网络问题不能访问github，请注释掉下面的任务
   -- pollingTask(bot, "pollingTask")
 end
 
-local config = require("config")
 bot = Bot(config.Username, config.Password, "device.json")
 bot:login()
 onLoad(bot)

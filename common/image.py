@@ -1,4 +1,5 @@
 from PIL import Image
+from io import BytesIO
 import os, random, time, sys, requests
 
 imgDir = "database/img/"
@@ -10,14 +11,16 @@ def crop(imgPath, x1, y1, x2, y2, outImg):
   return
 
 def download(url, path):
-  if os.path.exists(path):
-    return
   r = requests.get(url)
   if r.status_code != 200:
     return
-  with open(path, "wb") as f:
-    f.write(r.content)
-  f.close()
+  byte_stream = BytesIO(r.content)
+  im = Image.open(byte_stream)
+  if im.mode == "RGBA":
+    im.load()  # required for png.split()
+    background = Image.new("RGB", im.size, (255, 255, 255))
+    background.paste(im, mask=im.split()[3])
+  im.save(path, 'PNG')
 
 def guessAvatar(path, outImg):
   img = Image.open(path, "r")
