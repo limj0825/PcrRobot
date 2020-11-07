@@ -1,3 +1,5 @@
+-- 查新闻
+
 local json = require("common.json")
 
 local news = function (msg)
@@ -46,6 +48,6 @@ local function getNews(event)
   group:sendMessage(At(sender).." "..news(msg))
 end
 
-return {--查新闻
+return {
   run = getNews
 }

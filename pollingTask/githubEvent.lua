@@ -28,7 +28,7 @@ local github = function (user, repo, token, sender)
 
     if isSuccessful and code == 200 then
       local data = json.decode(body)
-      local githubId = json.read("githubPushId.json")
+      local githubId = json.read("database/githubPushId.json")
       for i = math.min(10, #data), 1, -1 do
         if data[i].type ~= "PushEvent" then
           goto continue
@@ -45,7 +45,7 @@ local github = function (user, repo, token, sender)
         end
         ::continue::
       end
-      json.write("githubPushId.json", githubId)
+      json.write("database/githubPushId.json", githubId)
     else
       print("获取仓库信息失败 "..message.." "..code)
     end

@@ -384,10 +384,8 @@ function json.decode(str)
   return res
 end
 
-local dir = "database/"
-
 function json.read(path)
-  local file = io.open(dir..path, "r")
+  local file = io.open(path, "r")
   if file == nil then
     return {}
   end
@@ -400,7 +398,7 @@ function json.read(path)
 end
 
 function json.write(path, content)
-  local file = io.open(dir..path, "w")
+  local file = io.open(path, "w")
   file:write(json.encode(content))
   io.close(file)
   return
