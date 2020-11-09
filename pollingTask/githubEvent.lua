@@ -17,12 +17,16 @@ local json = require("common.json")
 local github = function (user, repo, token, sender)
   while true do
     local body,isSuccessful,code,message = Http.get(
-      "https://api.github.com/repos/"..user.."/"..repo.."/events?access_token="..token,
+      "https://api.github.com/repos/"..user.."/"..repo.."/events",
       {
           connectTimeout = 5000,
           readTimeout = 5000,
           followRedirects = true,
           writeTimeout = 5000
+      },
+
+      {
+        Authorization = token
       }
     )
 
@@ -61,14 +65,14 @@ local genLaunch = function ()
         return
       end
       local sender = bot:getFriend(v.id)
-      bot:launch(github(v.user, v.repo, v.token, sender))
+      github(v.user, v.repo, v.token, sender)
     elseif v.type == "group" then
       if not bot:containsGroup(v.id) then
         print(v.id.. " 群不存在")
         return
       end
       local sender = bot:getGroup(v.id)
-      bot:launch(github(v.user, v.repo, v.token, sender))
+      github(v.user, v.repo, v.token, sender)
     end
   end
 end

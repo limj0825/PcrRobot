@@ -5,3 +5,4 @@ models/opqqq-plugin/resources/pcr-fortune/user
 models/opqqq-plugin/resources/pcr-fortune/out
 .vscode
 database
+__pycache__

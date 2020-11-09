@@ -16,8 +16,7 @@ local function pollingTask(bot, dir)
   for k, v in ipairs(files) do
     os.execute("echo 加载"..v:gsub("%.lua", ""))
     local app = require(dir.."/"..v:gsub("%.lua", ""))
-    -- 由文件自行开启线程
-    app.run()
+    bot:launch(app.run)
   end
 end
 
